@@ -10,7 +10,7 @@ class FuncionarioTest {
 
     @Test
     void getNome() {
-        Funcionario a = new Funcionario("Cinthia", "03/07/1995", "234.942.168-60", "TI", "05/06/2022", "Osasco");
+        Funcionario a = new Funcionario("Cinthia", "03/07/1995", "111.111.111-11", "TI", "05/06/2022", "Osasco");
         Assertions.assertEquals("Cinthia", a.getNome());
     }
 
@@ -23,7 +23,7 @@ class FuncionarioTest {
 
     @Test
     void getDataDeNasc() {
-        Funcionario c = new Funcionario("Cinthia", "03/07/1995", "234.942.168-60", "TI", "05/06/2022", "Osasco");
+        Funcionario c = new Funcionario("Cinthia", "03/07/1995", "111.111.111-11", "TI", "05/06/2022", "Osasco");
         Assertions.assertEquals("03/07/1995", c.getDataDeNasc());
     }
 
@@ -36,13 +36,13 @@ class FuncionarioTest {
 
     @Test
     void getCpf() {
-        Funcionario e = new Funcionario("Cinthia", "03/07/1995", "234.942.168-60", "TI", "05/06/2022", "Osasco");
+        Funcionario e = new Funcionario("Cinthia", "03/07/1995", "111.111.111-11", "TI", "05/06/2022", "Osasco");
         Assertions.assertEquals("234.942.168-60", e.getCpf());
     }
 
     @Test
     void getDataDeAdmissao() {
-        Funcionario f = new Funcionario("Cinthia", "03/07/1995", "234.942.168-60", "TI", "05/06/2022", "Osasco");
+        Funcionario f = new Funcionario("Cinthia", "03/07/1995", "111.111.111-11" "TI", "05/06/2022", "Osasco");
         Assertions.assertEquals("05/06/2022", f.getDataDeAdmissao());
     }
 
