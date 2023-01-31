@@ -44,7 +44,7 @@ class ListEmpresaTest {
     @Test
     void apagarFuncionario() {
         List<Funcionario> funcionarios = new LinkedList();
-        Funcionario cpf = new Funcionario("Cinthia", "03/07/1995", "234.942.168-60", "TI", "05/06/2022", "Osasco");
+        Funcionario cpf = new Funcionario("Cinthia", "03/07/1995", "111.111.111-11", "TI", "05/06/2022", "Osasco");
         funcionarios.add(cpf);
         Assertions.assertEquals("234.942.168-60", cpf.getCpf());
     }
